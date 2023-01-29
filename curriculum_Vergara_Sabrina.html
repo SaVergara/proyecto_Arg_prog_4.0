@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Meta Viewport para adaptar el contenido a diferentes dispositivos.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/3d-fluency/512/globe-africa.png"> <!--Favicon-->
+    <!-- Open Graph data -->
+    <!--esto permite hacer una previsualizacion cuando se comparte el link de la pagina-->
+    <meta property="og:title" content="proyecto_final_CV_Vergara_Sabrina" />
+    <meta property="og:type" content="pagina_web" />
+    <meta property="og:url" content="http://127.0.0.1:5500/Index.html" />
+    <meta property="og:image" content="https://randomuser.me/api/portraits/women/51.jpg" />
+    <meta property="og:description" content="proyecto final cv. Sabrina Vergara" />
+    <!--Me conecta mi HTML con una hoja de JS-->
+    <script src="curriculum.js"></script>
+    <!--Me conecta mi HTML con una hoja de estilo css-->
+    <link rel="stylesheet" type="text/css" href="/Estilo.css" />
+    <!-- Libreria de Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="header_1">
+        <img class="header_2"
+            src="https://phantom-telva.unidadeditorial.es/4c738a974cf0a286819759c7d5091b0d/resize/1280/f/webp/assets/multimedia/imagenes/2022/11/26/16694203139024.jpg"
+            alt="">
+        <div class="header_3">
+            <div class="primary-info">
+                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Lena Wallace</h1>
+                <div class="title mb-3">Administrativa Contable</div>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#"><i class="fa fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i><a
+                                href="mailto:lena.wallace@example.com" id="mail">lena.wallace@example.com</a></li>
+                    <li><a href="#"><i class="fa fa-mobile fa-fw mr-2" data-fa-transform="grow-6"></i></a>(0123)
+                        456-7890</li>
+                    <li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i
+                                    class="fa fa-linkedin fa-fw"></i></a></span>linkedin.com/in/lenawallace</li>
+                </ul>
+            </div><!--//primary-info-->
+        </div><!--//media-body-->
+    </div>
+
+
+
+
+
+
+
+    <!-- Esta parte del codigo general las tablas verticales -->
+    <div class="tab">
+
+        <button class="tablinks" onclick="openCity(event, 'Perfil')" id="defaultOpen"> <i class="fa fa-user"
+                aria-hidden="true"></i> Perfil</button>
+
+        <button class="tablinks" onclick="openCity(event, 'Experiencia')"><i class="fa fa-suitcase"
+                aria-hidden="true"></i> Experiencia</button>
+
+        <button class="tablinks" onclick="openCity(event, 'Habilidades')"> <i class="fa fa-cubes"
+                aria-hidden="true"></i> Habilidades</button>
+    </div>
+
+    <div id="Perfil" class="tabcontent">
+        <h2>Sobre Mí</h2>
+        <p>Yo soy Lena Wallace, Administrativa Contable, de Buenos Aires, Argentina.
+            Tengo una rica experiencia como Auxiliar administrativa. Gran atención al detalle y fuertes habilidades de
+            toma de decisiones para gestionar múltiples tareas. Mis conocimientos en finanzas y contabilidad general son
+            basicos y tengo habilidades lingüísticas.
+        </p>
+
+        <h3>Información Personal</h3>
+        <!-- generar 2 columnas  -->
+
+
+        <div class="row">
+            <div class="column left" style="background-color:rgb(249, 239, 239);;">
+                <p>Email </p>
+                <p>Fecha de nac.</p>
+                <p>Dirección</p>
+                <p>Telefono</p>
+            </div>
+            <div class="column right" style="background-color:rgb(245, 243, 243);">
+                <p><a href="mailto:lena.wallace@example.com" id="mail">lena.wallace@example.com</a></p>
+                <p> 05/02/1991</p>
+                <p>1273 depaul DR</p>
+                <p>(796) 398-5992</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Experiencia" class="tabcontent">
+
+        <h3>Experiencia</h3>
+        <p>
+        <h4>Administrativa contable </h4>
+        <h5>10/2016 - Actual</h5>
+        <h6>Constructora Sudamericana - Av. Leandro N. Alem 986, C1001 AAR, Buenos Aires</h6>
+        <p>Preparacion de los documentos de los estados financieros necesarios para las declarariones trimestrales y
+            anuales de ámbito fiscal que luego son presentadas por la asesoría legal </p>
+        <p>Obtención de la cuenta de Perdidas y Ganancias y Balances.</p>
+        <p>Registro contable de las Operaciones </p>
+        <p>Implementacion de correcciones para mitigar las discrepancias financieras y disminuir los fallos del sistema.
+        
+
+        <h4> Auxiliar Administrativo</h4>
+        <h5>01/2013 – 05/2016</h5>
+        <h6> Estudio Contable Martino - Av. Corrientes 222 Piso 14, C1043 CABA</h6>
+        <p>Responsable de logística y agendas para la planificación de reuniones y eventos de la Comisión directiva</p>
+        <p>Tareas generales de oficina y administración general.</p>
+        <p>Desarrollo y actualización de hojas de Cálculo y bases de datos para rastrear y analizar información.</p>
+
+        <h4>Administrativa Contable</h4>
+        <h5>02/2010 – 06/2012</h5>
+        <h6>Hotel Argenta Suites Belgrano. Cdad. de La Paz 1868, C1428CPD CABA•011 4706-1881</h6>
+        <p> Verificación, contabilización y asignación de transacciones en libros diarios y sistemas informáticos de
+            facturas,confeccion de recibos e informes.</p>
+        <p> Optimizacion del sistema contable para la inspección de los libros de registros y contabilidad
+            Gestion y control de clientes, facturación y cobros.</p>
+        <p> y presentación de Auditorias de las fichas de clientes y proveedores.</p>
+    </div>
+
+    <div id="Habilidades" class="tabcontent">
+        <h3>Habilidades</h3>
+        <p>Capacidad de trabajo en equipo y de adaptación</p>
+        <p>Actitud proactiva</p>
+        <p>Resolución de problemas</p>
+        <p>Informe de desarrollo</p>
+        <p>Software de planificación de recursos</p>
+        <p>HTML</p>
+    </div>
+</body>
+
+</html>
+<script> document.getElementById("defaultOpen").click();</script>
